@@ -1,0 +1,134 @@
+2025-07-27 12:38:01,150 - root - ERROR - Fatal error: cannot import name 'Chat' from 'telegram' (/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/__init__.py)
+Traceback (most recent call last):
+  File "/home/runner/workspace/run.py", line 194, in main
+    from main import SmartMediaBot
+  File "/home/runner/workspace/main.py", line 13, in <module>
+    from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/__init__.py", line 67, in <module>
+    from . import filters
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/filters.py", line 114, in <module>
+    from telegram import Chat as TGChat
+ImportError: cannot import name 'Chat' from 'telegram' (/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/__init__.py)
+2025-07-27 12:38:10,823 - root - ERROR - Fatal error: cannot import name 'Chat' from 'telegram' (unknown location)
+Traceback (most recent call last):
+  File "/home/runner/workspace/run.py", line 194, in main
+    from main import SmartMediaBot
+  File "/home/runner/workspace/main.py", line 13, in <module>
+    from telegram.ext import Application, CommandHandler, MessageHandler, CallbackQueryHandler, filters
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/__init__.py", line 67, in <module>
+    from . import filters
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/telegram/ext/filters.py", line 114, in <module>
+    from telegram import Chat as TGChat
+ImportError: cannot import name 'Chat' from 'telegram' (unknown location)
+2025-07-27 12:38:21,460 - root - ERROR - Fatal error: name 'List' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/run.py", line 194, in main
+    from main import SmartMediaBot
+  File "/home/runner/workspace/main.py", line 19, in <module>
+    from src.monitor import SystemMonitor
+  File "/home/runner/workspace/src/monitor.py", line 17, in <module>
+    class SystemMonitor:
+  File "/home/runner/workspace/src/monitor.py", line 399, in SystemMonitor
+    def get_current_alerts(self) -> List[Dict[str, Any]]:
+                                    ^^^^
+NameError: name 'List' is not defined
+2025-07-27 12:38:30,549 - root - ERROR - Fatal error: name 'List' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/run.py", line 194, in main
+    from main import SmartMediaBot
+  File "/home/runner/workspace/main.py", line 19, in <module>
+    from src.monitor import SystemMonitor
+  File "/home/runner/workspace/src/monitor.py", line 17, in <module>
+    class SystemMonitor:
+  File "/home/runner/workspace/src/monitor.py", line 399, in SystemMonitor
+    def get_current_alerts(self) -> List[Dict[str, Any]]:
+                                    ^^^^
+NameError: name 'List' is not defined
+2025-07-27 12:38:37,641 - root - ERROR - Fatal error: name 'List' is not defined
+Traceback (most recent call last):
+  File "/home/runner/workspace/run.py", line 194, in main
+    from main import SmartMediaBot
+  File "/home/runner/workspace/main.py", line 19, in <module>
+    from src.monitor import SystemMonitor
+  File "/home/runner/workspace/src/monitor.py", line 17, in <module>
+    class SystemMonitor:
+  File "/home/runner/workspace/src/monitor.py", line 399, in SystemMonitor
+    def get_current_alerts(self) -> List[Dict[str, Any]]:
+                                    ^^^^
+NameError: name 'List' is not defined
+2025-07-27 12:38:46,435 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:38:46,435 - src.task_queue - INFO - Task queue started
+2025-07-27 12:38:46,435 - src.monitor - INFO - System monitor started
+2025-07-27 12:38:46,456 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:38:47,499 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:39:16,039 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:39:16,039 - src.task_queue - INFO - Task queue started
+2025-07-27 12:39:16,039 - src.monitor - INFO - System monitor started
+2025-07-27 12:39:16,054 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:39:17,071 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:40:20,420 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:40:20,421 - src.task_queue - INFO - Task queue started
+2025-07-27 12:40:20,421 - src.monitor - INFO - System monitor started
+2025-07-27 12:40:20,437 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:40:21,467 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:40:50,514 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:40:50,515 - src.task_queue - INFO - Task queue started
+2025-07-27 12:40:50,515 - src.monitor - INFO - System monitor started
+2025-07-27 12:40:50,530 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:40:51,545 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:41:51,506 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:41:51,507 - src.task_queue - INFO - Task queue started
+2025-07-27 12:41:51,507 - src.monitor - INFO - System monitor started
+2025-07-27 12:41:51,521 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:41:52,541 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:42:21,810 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:42:21,811 - src.task_queue - INFO - Task queue started
+2025-07-27 12:42:21,812 - src.monitor - INFO - System monitor started
+2025-07-27 12:42:21,831 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:42:22,847 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:43:31,346 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:43:31,346 - src.task_queue - INFO - Task queue started
+2025-07-27 12:43:31,347 - src.monitor - INFO - System monitor started
+2025-07-27 12:43:31,363 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:43:32,377 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:43:50,373 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 12:43:50,373 - src.task_queue - INFO - Task queue started
+2025-07-27 12:43:50,374 - src.monitor - INFO - System monitor started
+2025-07-27 12:43:50,393 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 12:43:51,412 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 12:47:27,516 - src.bot_handlers - ERROR - Error handling callback help_guide: 'BotHandlers' object has no attribute 'show_help_guide'
+2025-07-27 12:47:27,906 - src.bot_handlers - ERROR - Error handling callback help_guide: 'BotHandlers' object has no attribute 'show_help_guide'
+2025-07-27 12:47:28,961 - src.bot_handlers - ERROR - Update Update(callback_query=CallbackQuery(chat_instance='-6865353331379131457', data='help_guide', from_user=User(first_name='⚛️⚛️', id=6210761658, is_bot=False, language_code='en', username='EJAKJ_313'), id='8228274133977972941', message=Message(channel_chat_created=False, chat=Chat(first_name='⚛️⚛️', id=6210761658, type=<ChatType.PRIVATE>, username='EJAKJ_313'), date=datetime.datetime(2025, 7, 27, 12, 46, 58, tzinfo=datetime.timezone.utc), delete_chat_photo=False, entities=(MessageEntity(length=37, offset=3, type=<MessageEntityType.BOLD>), MessageEntity(length=15, offset=111, type=<MessageEntityType.BOLD>), MessageEntity(length=16, offset=278, type=<MessageEntityType.BOLD>), MessageEntity(length=5, offset=419, type=<MessageEntityType.BOT_COMMAND>), MessageEntity(length=7, offset=451, type=<MessageEntityType.BOT_COMMAND>)), from_user=User(first_name='MOWKAjbot', id=8264125289, is_bot=True, username='MO91oajbot'), group_chat_created=False, message_id=2, reply_markup=InlineKeyboardMarkup(inline_keyboard=((InlineKeyboardButton(callback_data='help_guide', text='📚 دليل الاستخدام'),), (InlineKeyboardButton(callback_data='advanced_tools', text='🔧 أدوات متقدمة'),), (InlineKeyboardButton(callback_data='system_stats', text='📊 إحصائيات النظام'),))), supergroup_chat_created=False, text='🎬 مرحباً بك في Smart Media AI Assistant\n\nأنا مساعد ذكي لتحسين جودة الفيديو والصوت باستخدام الذكاء الاصطناعي!\n\nما يمكنني فعله:\n• 📈 رفع دقة الفيديو (2K, 4K)\n• 🔇 إزالة الضوضاء من الصوت والفيديو\n• 🎨 تحسين جودة الصورة والألوان\n• 🔄 تحويل صيغ الملفات\n• ⚡ معالجة سريعة بتقنية GPU\n\nكيفية الاستخدام:\n1. أرسل ملف فيديو أو صوت\n2. أو أرسل رابط من YouTube/موقع آخر\n3. اختر نوع التحسين المطلوب\n4. انتظر النتيجة المحسّنة!\n\nاستخدم /help للمزيد من المساعدة\nاستخدم /status لمعرفة حالة النظام')), update_id=730599318) caused error Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2025-07-27 12:47:51,253 - src.bot_handlers - ERROR - Error handling callback refresh_status: 'BotHandlers' object has no attribute 'refresh_status'
+2025-07-27 12:48:02,413 - src.bot_handlers - ERROR - Error handling callback refresh_status: 'BotHandlers' object has no attribute 'refresh_status'
+2025-07-27 12:48:07,061 - src.bot_handlers - ERROR - Error handling callback help_guide: 'BotHandlers' object has no attribute 'show_help_guide'
+2025-07-27 12:48:17,937 - src.bot_handlers - ERROR - Error handling callback advanced_tools: 'BotHandlers' object has no attribute 'show_advanced_tools'
+2025-07-27 13:01:59,528 - src.monitor - WARNING - System alert: high_cpu - CPU usage: 86.5%
+2025-07-27 13:07:51,428 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 13:07:51,428 - src.task_queue - INFO - Task queue started
+2025-07-27 13:07:51,429 - src.monitor - INFO - System monitor started
+2025-07-27 13:07:51,455 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 13:07:52,465 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 13:08:36,169 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 13:08:36,169 - src.task_queue - INFO - Task queue started
+2025-07-27 13:08:36,169 - src.monitor - INFO - System monitor started
+2025-07-27 13:08:36,189 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 13:08:37,203 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 13:12:57,755 - src.ai_agent - INFO - AI Agent processed command: هلا -> None
+2025-07-27 13:18:03,783 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 13:18:03,786 - src.task_queue - INFO - Task queue started
+2025-07-27 13:18:03,788 - src.monitor - INFO - System monitor started
+2025-07-27 13:18:03,805 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 13:18:04,817 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 13:20:09,395 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 13:20:09,395 - src.task_queue - INFO - Task queue started
+2025-07-27 13:20:09,395 - src.monitor - INFO - System monitor started
+2025-07-27 13:20:09,417 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 13:20:10,431 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 13:20:16,890 - main - INFO - Starting Smart Media AI Assistant Bot...
+2025-07-27 13:20:16,890 - src.task_queue - INFO - Task queue started
+2025-07-27 13:20:16,890 - src.monitor - INFO - System monitor started
+2025-07-27 13:20:16,912 - main - INFO - Bot initialized successfully. Starting polling...
+2025-07-27 13:20:17,924 - src.tool_manager - INFO - Tool availability: {'ffmpeg': True, 'realesrgan': False, 'video2x': False, 'gpu': False}
+2025-07-27 13:23:43,578 - src.smart_ai_agent - INFO - Smart AI processing: هلا
+2025-07-27 13:24:03,029 - src.smart_ai_agent - INFO - Smart AI processing: ‏علمني كيف يمكنني أعطيك الفيديو كيف تتحسن ما هو الأدوات تستخدم قائمة الأدوات

@@ -1,0 +1,86 @@
+{
+  "telegram_token": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+  "openai_api_key": "YOUR_OPENAI_API_KEY_HERE",
+  "admin_users": [
+    123456789
+  ],
+  "max_file_size": 52428800,
+  "max_concurrent_tasks": 3,
+  "monitoring": {
+    "enabled": true,
+    "interval_seconds": 30,
+    "alerts": {
+      "cpu_threshold": 80,
+      "memory_threshold": 85,
+      "disk_threshold": 90,
+      "gpu_memory_threshold": 85
+    }
+  },
+  "processing": {
+    "default_quality": "high",
+    "gpu_acceleration": true,
+    "temp_cleanup_hours": 24,
+    "user_files_cleanup_days": 7,
+    "ffmpeg_options": {
+      "video_codec": "libx264",
+      "audio_codec": "aac",
+      "preset": "medium"
+    },
+    "realesrgan": {
+      "default_model": "RealESRGAN_x4plus",
+      "tile_size": 0,
+      "denoise_strength": 0.5
+    }
+  },
+  "storage": {
+    "downloads_dir": "downloads",
+    "temp_dir": "temp",
+    "media_dir": "media",
+    "logs_dir": "logs",
+    "max_history_size": 1000
+  },
+  "notifications": {
+    "send_progress_updates": true,
+    "progress_update_interval": 30,
+    "send_completion_notifications": true,
+    "send_error_notifications": true
+  },
+  "rate_limiting": {
+    "max_requests_per_hour": 20,
+    "max_concurrent_per_user": 2,
+    "cooldown_minutes": 5
+  },
+  "language": {
+    "default": "ar",
+    "supported": ["ar", "en"]
+  },
+  "features": {
+    "video_enhancement": true,
+    "audio_processing": true,
+    "format_conversion": true,
+    "ai_suggestions": true,
+    "batch_processing": false,
+    "url_download": true
+  },
+  "tools": {
+    "ffmpeg": {
+      "path": "ffmpeg",
+      "enabled": true
+    },
+    "realesrgan": {
+      "path": "realesrgan-ncnn-vulkan",
+      "enabled": true
+    },
+    "video2x": {
+      "path": "video2x",
+      "enabled": false
+    }
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "bot.log",
+    "max_size_mb": 10,
+    "backup_count": 5,
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  }
+}
